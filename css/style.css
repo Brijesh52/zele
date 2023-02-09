@@ -1,0 +1,1238 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    /* border: 1px solid red !important; */
+}
+html{
+    font-size: 15px;
+}
+/* navbar starts */
+
+nav{
+    width: 100%;
+    
+}
+nav img{
+    float: left;
+    width: 190px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+nav ul{
+  float: left;
+  margin-left: 70px;
+  
+}
+nav ul li{
+    float: left;
+    margin-right: 35px;
+    margin-top: 20px;
+   font-size: 17px;
+   font-weight: 500;
+    list-style: none;
+    
+}
+nav ul li  .fa{
+    margin-left: 3px;
+    /* padding-top: 5px; */
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #a8ea06;
+    
+    text-decoration: none;
+
+}
+nav ul li a{
+    color: #1d1e21;
+    transition: ease 600ms;
+}
+nav .become{
+    width: 180px;
+    font-size: 15px;
+    padding-inline: 1rem;
+    padding-block: 1.2rem;
+    border: none;
+    font-weight: 500;
+    color: #1d1e21;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    float: right;
+}
+nav .become::before{
+    transition: all 0.3s ease;
+    content: '';
+    position: absolute;
+    left: -6%;
+    top: 0px;
+    width: 30%;
+    height: 100%;
+    background-color: #a8ea06;
+    z-index: -1;
+    transform: skew(-20deg);
+}
+nav .become:hover::before{
+    width: 100%;
+}
+nav .become .fa{
+    rotate: -40deg;
+    transition: all ease 700ms;
+}
+nav .become:hover .fa{
+    transform: rotate(40deg);
+
+}
+nav .bars{
+    display: none;
+}
+/* navbar ends */
+
+/* incraesr power starts */
+
+.increase{
+    padding-top: 180px;
+    padding-bottom: 70px;
+}
+.increase .left h2{
+    color: #eaf0f0;
+  font-weight: bold;
+  font-size: 7rem;
+  font-style: italic;
+  padding-top: 3rem;
+}
+.increase .left h1{
+    color: #2a2d36;
+    font-weight: bold;
+    font-size: 9rem;
+    font-style: italic;
+    position: relative;
+    bottom: 2.5rem;
+}
+.increase .right img{
+    width: 97%;
+    margin: 0 auto;
+  
+  }
+  
+  .increase .left .my-btn:hover .fa{
+    transform: skew(8deg);
+  }
+ .increase .left .my-btn{
+    width: 180px;
+    font-size: 15px;
+    padding-inline: 1rem;
+    padding-block: 1.2rem;
+    border: none;
+    font-weight: 500;
+    color: #1d1e21;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+ }
+.increase .my-btn::before{
+    transition: all 0.3s ease;
+    content: '';
+    position: absolute;
+    left: -6%;
+    top: 0px;
+    width: 30%;
+    height: 100%;
+    background-color: #a8ea06;
+    z-index: -1;
+    transform: skew(-20deg);
+}
+.increase .my-btn:hover::before{
+    width: 100%;
+}
+.increase .left .fa{
+    transform: rotate(-50deg);
+    font-size: 20px;
+    font-weight: 100;
+    transition: all ease 700ms;
+}
+.increase .my-btn .fa:hover::before{
+    transform: rotate(8deg);
+}
+/* incraesr power ends */
+
+/* workout section starts */
+
+.workout{
+    padding-block:90px 0;
+}
+.workout h3{
+    background-color: #a8ea06;
+    font-size: 1rem;
+    color: #2a2d36;
+    font-weight: regular  ;
+    padding: 5px;
+}
+.workout h1{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #2a2d36;
+    font-style: italic;
+}
+.workout h1 .light{
+    color: #a8ea06;
+    font-size: 5rem;
+  }
+/* workout section ends */
+
+/* testimonial starts */
+.increase-row{
+    padding-block: 40px 0;
+}
+.increase-row .left{
+    /* background-color: aqua; */
+}
+.increase-row .left h2{
+  color: #eaf0f0;
+  font-weight: bold;
+  font-size: 7rem;
+  font-style: italic;
+  position: relative;
+  top: 50px;
+}
+.increase-row .left h1{
+    color: #2a2d36;
+    font-weight: bold;
+    font-size: 190px;
+    font-style: italic;
+    
+  }
+ 
+  
+ 
+/* inceease power ends */
+
+/* workout fitness starts */
+
+.workout{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.workout h3{
+    background-color: #a8ea06;
+    font-size: 18px;
+    color: #2a2d36;
+    font-weight: regular  ;
+    padding: 5px;
+    display: inline-block;
+}
+.workout h1{
+    font-weight: bold;
+    font-size: 5.3rem;
+    color: #2a2d36;
+    font-style: italic;
+}
+.workout h1 .light{
+  color: #a8ea06;
+  font-size: 5.3rem;
+}
+/* workout fitness ends */
+
+/* testimonial starts */
+
+.testimonial{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.testimonial .left{
+    /* background-color: aqua; */
+}
+.testimonial .left img{
+    position: relative;
+    bottom: 70px;
+    width: 90%;
+}
+.testimonial .right .get-in h1{
+    font-size: 4rem;
+    color: #2a2d36;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.testimonial .right .functional h3{
+    font-size: 2rem;
+    color: #2a2d36;
+  font-weight: bold;
+  font-style: italic;
+  transition:all ease-in 200ms;
+}
+.testimonial .right .functional h3:hover{
+    color: #a8ea06;
+   
+    cursor: pointer;
+}
+.testimonial .right .functional p{
+    font-size: 16px;
+    color: #1d1e21;
+    font-weight: 300;
+}
+.testimonial .right .fitness h3{
+    font-size: 2rem;
+    color: #1d1e21;
+    font-weight: bold;
+    font-style: italic;
+    transition:all ease-in 200ms;
+}
+.testimonial .right .fitness h3:hover{
+    color: #a8ea06;
+   
+    cursor: pointer;
+}
+.testimonial .right .pilates h3{
+    font-size: 2rem;
+    color: #1d1e21;
+    font-weight: bold;
+    font-style: italic;
+    transition:all ease-in 200ms;
+}
+.testimonial .right .pilates h3:hover{
+    color: #a8ea06;
+   
+    cursor: pointer;
+}
+
+.testimonial .right .my-btn:hover .fa{
+  transform: rotate(40deg);
+}
+.testimonial .right .my-btn .fa{
+   rotate: -40deg;
+   font-size: 18px;
+   transition: ease 700ms;
+}
+
+.testimonial .right .my-btn{
+    width: 180px;
+    font-size: 15px;
+    padding-inline: 1rem;
+    padding-block: 1.2rem;
+    border: none;
+    font-weight: 500;
+    color: #1d1e21;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.testimonial .right .my-btn::before{
+    transition: all 0.3s ease;
+    content: '';
+    position: absolute;
+    left: -6%;
+    top: 0px;
+    width: 30%;
+    height: 100%;
+    background-color: #a8ea06;
+    z-index: -1;
+    transform: skew(-20deg);
+}
+.testimonial .right .my-btn:hover::before{
+    width: 100%;
+}
+/* testimonial ends */
+
+/* our trams starts  */
+
+.team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.team .left{
+    /* background-color: #a8ea06; */
+}
+.team .left h6{
+   font-weight: 400;
+   font-size: 1.3rem;
+   color: #2a2d36;
+   padding-bottom: 20px;
+    
+}
+.team .left h1{
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #2a2d36;
+}
+.team .left p{
+    font-size: 16px;
+    color: #1d1e21;
+    font-weight: 300;
+    word-spacing: 4px;
+}
+
+.team .left .left .fa{
+   font-size: 40px; 
+ 
+}
+.team .left .middle .fa{
+    font-size: 40px; 
+  
+ }
+ .team .left .right .fa{
+    font-size: 40px; 
+  
+ }
+.team .left .fa h2{
+    font-size: 1.4rem;
+    display: inline;
+    font-weight: 700;
+  
+}
+.team .right{
+    /* background-color: aqua; */
+}
+.team .right img{
+    width: 78%;
+    margin-left: 100px;
+   
+   
+}
+/* our trams ends */
+
+/* programs starts */
+
+.programs{
+    padding-top: 60px ;
+    padding-bottom: 50px;
+}
+.programs .left img{
+    width: 100%;
+} 
+.programs .right h1{
+  font-size: 5rem;
+  font-weight: bold;
+  color: #eaf0f0;
+  font-style: italic;
+  
+ 
+  
+
+}
+.programs .right h2 .gym{
+    color: #a8ea06;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.programs .right h2 .fa{
+    transition: all 0.3s ease;
+    transform: rotate(-40deg);
+    margin-left: 15px;
+    transition: ease 400ms;
+}
+.programs .right h2:hover .fa{
+    transform: rotate(4deg);
+}
+.programs .right h2{
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #2a2d36;
+    transition: all 0.2s ease;
+}
+
+
+.programs .right h2:hover{
+   color: #a8ea06;
+    /* width: 100%; */
+   /* transform: scale(1.1); */
+   
+   cursor: pointer;
+
+}
+/* programs ends */
+
+/* discover the power starts */
+
+.discover{
+    padding-top: 90px;
+}
+.discover .power{
+    border: 1px solid grey;
+   padding: 15px;
+   margin-bottom: 20px;
+   transition: all ease 200ms;
+}
+.discover .power:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer;
+}
+.discover .power h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1d1e21;
+    font-style: italic;
+}
+.discover .power p{
+    color:#2a2d36;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.discover .power img{
+    width: 45%;
+}
+.discover .diet{
+    border: 1px solid grey;
+    padding: 15px;
+   margin-bottom: 20px;
+   transition: all ease 200ms;
+}
+.discover .diet:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer;
+}
+.discover .diet h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2a2d36;
+    font-style: italic;
+}
+.discover .diet p{
+    color:#2a2d36;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.discover .diet img{
+    width: 45%;
+}
+.discover .indurance{
+    border: 1px solid grey;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: all ease 200ms;
+}
+.discover .indurance:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer;
+}
+.discover .indurance h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2a2d36;
+    font-style: italic;
+}
+.discover .indurance p{
+    color:#2a2d36;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.discover .indurance img{
+    width: 45%;
+}
+.discover .hours{
+    border: 1px solid grey;
+    padding: 15px;
+   margin-bottom: 20px;
+    background-color: #2a2d36;
+    transition: all ease 200ms;
+}
+.discover .hours:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer;
+}
+.discover .hours h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+}
+.discover .hours p{
+    color:#fff;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.discover .hours img{
+    width: 45%;
+}
+
+.discover .health{
+    border: 1px solid grey;
+    padding: 15px;
+   margin-bottom: 20px;
+   transition: all ease 200ms;
+}
+.discover .health:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer;
+}
+.discover .health h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1d1e21;
+    font-style: italic;
+}
+.discover .health p{
+    color:#2a2d36;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.discover .health img{
+    width: 45%;
+}
+.discover .master{
+    border: 1px solid grey;
+    padding: 15px;
+   margin-bottom: 20px;
+   transition: all ease 200ms;
+}
+.discover .master:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer;
+}
+.discover .master h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1d1e21;
+    font-style: italic;
+}
+.discover .master p{
+    color:#2a2d36;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.discover .master img{
+    width: 45%;
+}
+.discover .first{
+    border: 1px solid grey;
+    padding: 15px;
+   margin-bottom: 20px;
+   transition: all ease 200ms;
+}
+.discover .first:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer; 
+}
+.discover .first h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1d1e21;
+    font-style: italic;
+}
+.discover .first p{
+    color:#2a2d36;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.discover .first img{
+    width: 45%;
+}
+.discover .contact{
+    border: 1px solid grey;
+    padding: 15px;
+   margin-bottom: 20px;
+    background-color: #2a2d36;
+    transition: all ease 200ms;
+}
+.discover .contact:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer;
+}
+.discover .contact h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+}
+.discover .contact p{
+    color:#fff;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.discover .contact img{
+    width: 45%;
+}
+
+.discover .location{
+    background-color: #2a2d36;
+    border: 1px solid grey;
+    padding: 15px;
+    transition: all ease 200ms;
+}
+.discover .location:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+-moz-box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+box-shadow: -1px 3px 35px -11px rgba(0,0,0,1);
+cursor: pointer;
+}
+.discover .location h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+}
+.discover .location p{
+    color:#fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.discover .location img{
+    width: 45%;
+}
+/* discover the power ends */
+
+/* download the app starts */
+
+.download{
+    background-color: #a8ea06;
+    width: 100%;
+    background-image: url("../img/bottom_wave_01.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-block: 130px;
+}
+.download .left{
+    padding-block: 30px;
+}
+.download .left h1{
+    font-weight: bold;
+    font-size: 5.6rem;
+    color: #ffffff;
+    font-style: italic;
+}
+.download .left h2{
+    color: #2a2d36;
+    font-size: 4.2rem;
+    font-weight: bold;
+     font-style: italic;
+    line-height: 30px;
+
+
+}
+.download .middle{
+  
+    padding-block: 80px;
+    padding-inline: 80px;
+}
+.download .middle img{
+    width: 100%;
+    margin-left: 76px;
+    margin-bottom: 20px;
+}
+.download .right img{
+  margin-left: 60px;
+
+  width: 85%;
+  position: relative;
+  bottom: 7px;
+}
+/* download the app ends */
+
+/* schedule starts */
+.schedule{
+    padding-top: 100px ;
+}
+.schedule .left h1{
+    font-size: 6.5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #eaf0f0;
+    margin-bottom: -35px;
+
+}
+.schedule .left h3{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #2a2d36;
+    margin-top: 26px;
+}
+.schedule .left img{
+    width: 100%;
+   
+}
+.schedule .right{
+    padding-top:80px ;
+  
+}
+.schedule .right  .my-btn{
+    width: 180px;
+    font-size: 1.1rem;
+    padding-inline: 1rem;
+    padding-block: 1.2rem;
+    border: none;
+    font-weight: 500;
+    color: #1d1e21;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 50px;
+ }
+.schedule .right  .my-btn::before{
+    transition: all 0.3s ease;
+    content: '';
+    position: absolute;
+    left: -6%;
+    top: 0px;
+    width: 30%;
+    height: 100%;
+    background-color: #a8ea06;
+    z-index: -1;
+    transform: skew(-20deg);
+}
+.schedule .right .my-btn:hover::before{
+    width: 100%;
+}
+.schedule .right .monday{
+    background-color: #eaf0f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.schedule .right .monday p{
+    color: #2a2d36;
+    font-size: 14px;
+    background-color: #a8ea06;
+    display: inline;
+}
+.schedule .right .monday h3{
+    color: #1d1e21;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.schedule .right .pilates p{
+    color: #1d1e21;
+    font-weight: 200;
+    font-size: 16px;
+}
+.schedule .right .pilates  .right{
+    color: #1d1e21;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: right;
+}
+.schedule .right  #black{
+    background-color: #1d1e21;
+}
+.schedule .right #newblack{
+    color: #fff;
+}
+/* schedule ends */
+
+
+/* plan day section starts */
+
+.plan{
+    padding-top: 70px;
+}
+
+.plan h1{
+    font-weight: bold;
+    font-size: 8rem;
+    color: #eaf0f0;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan .wake img{
+    width: 37%;
+}
+.plan .wake h2{
+    font-weight: bold;
+    color: #2a2d36;
+    font-size: 4rem;
+    font-style: italic;
+}
+.plan .wake h3{
+    font-weight: bold;
+    color: #2a2d36;
+    font-size: 2.1rem;
+    font-style: italic;
+}
+.plan .heart img{
+    width: 37%;
+}
+.plan .heart h2{
+    font-weight: bold;
+    color: #2a2d36;
+    font-size: 4rem;
+    font-style: italic;
+}
+.plan .heart h3{
+    font-weight: bold;
+    color: #2a2d36;
+    font-size: 2.1rem;
+    font-style: italic;
+}
+.plan .flag img{
+    width: 37%;
+}
+.plan .flag h2{
+    font-weight: bold;
+    color: #2a2d36;
+    font-size: 4rem;
+    font-style: italic;
+}
+.plan .flag h3{
+    font-weight: bold;
+    color: #2a2d36;
+    font-size: 2.1rem;
+    font-style: italic;
+}
+/* plan day section ends */
+
+/* girl section starts */
+
+
+
+.slide{
+  margin-top: 50px;
+}
+.slide .girl{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    /* background-color: #a8ea06; */
+}
+.slide .girl img{
+    width: 100%;
+    /* background-size: contain; */
+}
+.slide .wave {
+  background-image: url("../img/top_wave_01.png");
+  width: 100%;
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+/* girl section ends */
+
+/* get in touch starts */
+.footer{
+    background-color: #2a2d36;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    width: 100%;
+}
+.footer .get{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer .get p{
+    background-color: #a8ea06;
+    color: #2a2d36;
+    font-size: 1.1rem;
+    display: inline-block;
+
+}
+.footer .get h2{
+    color: #eaf0f0;
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
+}
+.footer .get h3{
+    color: #eaf0f0;
+    font-weight: bold;
+    font-size: 3.2rem;
+    font-style: italic;
+}
+.footer .vibrate{
+    text-align: center;
+    
+}
+.footer .vibrate h3{
+    color: #eaf0f0;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+
+}
+.footer .location{
+    text-align: center;
+    color: #fff;
+}
+.footer .location h3{
+    color: #eaf0f0;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+}
+.footer .time{
+    text-align: center;
+    
+}
+.footer .time h3{
+    color: #eaf0f0;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+}
+/* get in touch ends */
+
+
+
+
+
+/* media query starts for navigation */
+
+@media only screen and (max-width:1190px) {
+    
+    nav ul{
+        display: none;
+        position: absolute;
+        top: 90px;
+        z-index: 999;
+        background-color: #2a2d36;
+        margin-left: 0px;
+        width: 100%;
+
+    }
+    nav ul li{
+        clear: both;
+        padding-block: 10px;
+        font-size: 20px;
+        
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    nav .become{
+        display: none;
+    }
+    nav .bars{
+        float: right;
+        color:#a8ea06 ;
+        font-size: 40px;
+        padding-top: 10px;
+        padding-right: 20px;
+        display: block;
+    }
+ nav img{
+    margin-left: 2px;
+ }
+  
+
+}
+/* media query ends for navigation */
+
+
+/* media query starts */
+
+@media only screen and (max-width:768px){
+    html{
+        font-size: 7px;
+    }
+    .increase .left h1{
+        font-size: 6rem;
+    }
+    .increase .left h2{
+        font-size: 6rem;
+    }
+    .increase .right img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+
+    /* testemonial starts */
+    .testimonial .left img{
+        position: unset;
+        
+    }
+    .testimonial .right .functional h3{
+        font-size: 30px;
+    }
+    .testimonial .right .fitness h3{
+        font-size: 30px;
+    }
+    .testimonial .right .pilates h3{
+        font-size: 30px;
+    }
+    /* testemonial ends */
+
+    /* our team starts */
+    .team .left .icon .fa{
+        display: block;
+        margin-top: 6px;
+    }
+    .team .left .icon .fa h3{
+        font-size: 20px;
+        
+    }
+    .team .right img{
+        width: 85%;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+    /* our team ends */
+
+    /* program section starts */
+    .programs .left img{
+        width: 85%;
+        margin: 0 auto;
+        margin-left: 40px;
+    }
+    /* program section ends */
+
+    /* discover the power starts */
+
+    .discover .power {
+      /* margin-bottom: 20px; */
+      /* margin-left: 25px; */
+      
+    }
+    .discover .indurance img{
+        width: 15%;
+    }
+    .discover .power img{
+        width: 15%;
+    }
+    .discover .health img{
+        width: 15%;
+    }
+    .discover .first img{
+        width: 15%;
+    }
+    .discover .diet img{
+        width: 15%;
+    }
+    .discover .contact img {
+        width: 15%;
+    }
+    .discover .hours img{
+        width: 15%;
+    }
+    .discover .master img{
+        width: 15%;
+    }
+    .discover .location img {
+        width: 15%;
+    }
+    /* discover the power ends */
+    
+
+
+
+    /* download the app stats */
+
+    .download .yellow .phone img{
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .download .yellow .app h1 {
+        text-align: center;
+    }
+    .download .yellow .app h2 {
+        text-align: center;
+    }
+    /* download the app ends */
+    
+
+    /* schedule section starts */
+
+    .schedule .left img{
+        width: 90%;
+    }
+    /* schedule section ends */
+    /* plan you day setion starts */
+
+    .plan .wake img{
+        width: 22%;
+    }
+    .plan .heart img{
+        width: 22%;
+    }
+    .plan .flag img{
+        width: 22%;
+    }
+    /* plan you day setion starts */
+
+    /* get in touch section starts */
+
+    
+    /* get in touch section ends */
+}
+/* media query ends */
+
+/* media query starts for tablet */
+
+@media only screen and (max-width:980px){
+
+    .testimonial .left img{
+        position: unset;
+    }
+    .download .left{
+        text-align: center;
+    }
+    .download .middle{
+        text-align: center;
+    }
+    .download .middle img{
+        margin-left: 0px;
+        width: 85%;
+    }
+    .download .right{
+        text-align: center;
+    }
+    .download .right img{
+        margin-left: 0px;
+        width: 60%;
+       
+    }
+    .discover .indurance img{
+        width: 15%;
+    }
+    .discover .power img{
+        width: 15%;
+    }
+    .discover .health img{
+        width: 15%;
+    }
+    .discover .first img{
+        width: 15%;
+    }
+    .discover .diet img{
+        width: 15%;
+    }
+    .discover .contact img {
+        width: 15%;
+    }
+    .discover .hours img{
+        width: 15%;
+    }
+    .discover .master img{
+        width: 15%;
+    }
+    .discover .location img {
+        width: 15%;
+    }
+}
+
+/* media query starts for ends */
